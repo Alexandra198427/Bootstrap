@@ -22,3 +22,20 @@ body{
     color: "#001c00" !important;
 
 }
+
+.carousel-inner img{
+    width: 100%;
+
+}
+
+.carousel .carousel-item{
+    height:750px;
+}
+
+.carousel-item{
+    position:absolute;
+    object-fit:cover;
+    top:0;
+    left:0;
+    min-height: 750px;
+}
