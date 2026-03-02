@@ -63,7 +63,8 @@ body{
 
 .bg-1{
     background-color: lightblue;
-    color: black;
+    color: rgb(105, 53, 1);
+    height: 400px;
 }
 
 .bg-2{
@@ -88,9 +89,34 @@ body{
     border-radius: 50%;
 }
 
+.title {
+    text-align: center;
+}
+
+.imagealign{
+    width: 400px;
+    height:400px;
+    float: left;
+    margin-right: 15px;
+}
+
+#where {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
 #where img{
     width: 200px;
     height: 300px;
     padding-top: 10px;
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+#what img{
+    width: 200px;
+    height: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px
 }
